@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ua-UA">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=1160, user-scaleble=no" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="google-site-verification" content="mDIjHJQ8Esm5q0ISf-8FnQl4Ya-IyHrSuKhVOqRRPcc" />
+	<meta name="robots" content="index,follow">
+
+	<!-- Мета-теги для Facebook -->
+<meta property="fb:app_id" content="499063380209704" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Новий канал" />
+
+	<title>Програма | Новий канал</title>
+	<link rel="profile" href="//gmpg.org/xfn/11" />
+	<link rel="pingback" href="http://novy.tv/xmlrpc.php" />
+	<link rel="shortcut icon" href="http://novy.tv/wp-content/themes/Novy/images/favicon.ico" type="image/x-icon" />
+	<!-- STYLES -->
+	<link rel="stylesheet" media="all" type="text/css" href="http://novy.tv/wp-content/themes/Novy/style.css?ver=54ef01b7786dd" />
+
+		<!-- WP -->
+	<link rel="alternate" type="application/rss+xml" title="Новий канал &raquo; Feed" href="http://novy.tv/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Новий канал &raquo; Comments Feed" href="http://novy.tv/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Новий канал &raquo; Програма Feed" href="http://novy.tv/tv/feed/" />
+<link rel='stylesheet' id='decomments-css'  href='http://novy.tv/wp-content/plugins/decomments/components/comments/assets/css/decom.css?ver=4.0' type='text/css' media='all' />
+<!--[if IE]>
+<link rel='stylesheet' id='decomments-ie-css'  href='http://novy.tv/wp-content/plugins/decomments/components/comments/assets/css/decom-ie.css?ver=4.0' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='dashicons-css'  href='http://novy.tv/wp-includes/css/dashicons.min.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='http://novy.tv/wp-includes/js/thickbox/thickbox.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='decovote-css'  href='http://novy.tv/wp-content/plugins/decovote/public/assets/css/screen.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wsl_css-css'  href='http://novy.tv/wp-content/plugins/wordpress-social-login/assets/css/style.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox_css-css'  href='http://novy.tv/wp-content/themes/Novy/js/fancybox/jquery.fancybox.css?ver=4.0' type='text/css' media='all' />
+<script type="text/javascript">
+             var decomSettings = {
+             'admin_ajax': 'http://novy.tv/wp-admin/admin-ajax.php',
+             'site_url': 'http://novy.tv',
+             'time_editing_deleting_comments': '30',
+             'multiple_vote': '1'
+            };
+            var decomLang = {
+                'comment_deleted' : 'Коментар видалено','edited' : 'Відкореговано','delete' : 'Видалити','not_zero' : 'Поле не дорівнює нулю','required' : 'Це поле обов\'язкове для заповнення','checked' : 'Будь-ласка, виберіть що-небудь','completed' : 'Операція виконана','items_deleted' : 'Елементи були видалені','close' : 'Закрити','loading' : 'Завантаження...'
+            };
+        </script><script type='text/javascript' src='http://novy.tv/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://novy.tv/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/js/global.js?ver=1.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/class/js/auth.js?ver=4.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/plugins/decovote/public/assets/js/cookie.js?ver=1.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-includes/js/plupload/plupload.full.min.js?ver=2.1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var DeleteAvatarObj = {"action":"delete_avatar","nonce":"ebe14823b6","url":"http:\/\/novy.tv\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/class/js/uploader.js?ver=4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var PostLoader = {"url":"http:\/\/novy.tv\/wp-admin\/admin-ajax.php","action":"fetch_more_posts","nonce":"2e29bc1f8d"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/class/js/post-loader.js?ver=4.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/class/js/form-builder-shortcode.js?ver=4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var favorite = {"ajax_url":"http:\/\/novy.tv\/wp-admin\/admin-ajax.php","action":"add_favorite","nonce":"f84efce3d8"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/class/js/favorite.js?ver=4.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/class/js/feedback.js?ver=4.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/class/js/poll.js?ver=4.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/framework/modules/deco-contests/assets/js/contest-builder-shortcode.js?ver=4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var contest_voting = {"ajax_url":"\/wp-admin\/admin-ajax.php?lang=ua","action":"contest_voting","nonce":"feb57011b9"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/framework/modules/deco-contests/assets/js/contest-voting.js?ver=4.0'></script>
+<!-- UPDATE COUNT:  10549 -->
+<meta http-equiv="Content-Language" content="ua-UA" />
+<style type="text/css" media="screen">
+.qtrans_flag span { display:none }
+.qtrans_flag { height:12px; width:18px; display:block }
+.qtrans_flag_and_text { padding-left:20px }
+.qtrans_flag_ua { background:url(http://novy.tv/wp-content/plugins/qtranslate/flags/ua.png) no-repeat }
+.qtrans_flag_ru { background:url(http://novy.tv/wp-content/plugins/qtranslate/flags/ru.png) no-repeat }
+</style>
+<link hreflang="ru" href="http://novy.tv/ru/tv/thursday/" rel="alternate" />
+<link rel="stylesheet" id="testme-style-css"  href="http://novy.tv/wp-content/plugins/wp_testme/testme_style.css" type="text/css" media="all" /> 
+<!-- All in One SEO Pack 2.2.3.1 by Michael Torbert of Semper Fi Web Design[537,567] -->
+<link rel="canonical" href="http://novy.tv/tv/" />
+<!-- /all in one seo pack -->
+
+	<!-- enable HTML5 elements in IE7+8 -->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- VK Button -->
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?105"></script>
+<script type="text/javascript">
+	VK.init({apiId: 4061961, onlyWidgets: true});
+
+</script>
+
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+	(function () {
+		var po = document.createElement('script');
+		po.type = 'text/javascript';
+		po.async = true;
+		po.src = 'https://apis.google.com/js/plusone.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(po, s);
+	})();
+
+</script>
+
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-27719526-1']);
+	_gaq.push(['_setDomainName', 'novy.tv']);
+	_gaq.push(['_addOrganic', 'go.mail.ru', 'q']);
+	_gaq.push(['_addOrganic', 'search.ukr.net', 'q']);
+	_gaq.push(['_addOrganic', 'search.ukr.net', 'search_query']);
+	_gaq.push(['_addOrganic', 'search.bigmir.net', 'z']);
+	_gaq.push(['_addOrganic', 'meta.ua', 'q']);
+	_gaq.push(['_addOrganic', 'nigma.ru', 's']);
+	_gaq.push(['_addOrganic', 'search.qip.ru', 'query']);
+	_gaq.push(['_addOrganic', 'search.livetool.ru', 'text']);
+	_gaq.push(['_addOrganic', 'bpes.com.ua', 'q']);
+	_gaq.push(['_addOrganic', 'webalta.ru', 'q']);
+	_gaq.push(['_addOrganic', 'search.i.ua', 'q']);
+	_gaq.push(['_addOrganic', 'search.icq.com', 'q']);
+
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+
+<script>
+	(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function () {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+	ga('create', 'UA-27719526-4', 'novy.tv');
+	ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript" src="http://novy.tv/gemiustraffik/xgemius.js"></script>
+
+<!--
+	generated 1084 seconds ago
+	generated in 0.981 seconds
+	served from batcache in 0.212 seconds
+	expires in 116 seconds
+-->
+</head>
+
+
+<body class="archive post-type-archive post-type-archive-tv chrome windows is-main novy" data-lang="ua">
+
+<script type="text/javascript" src="http://novy.tv/wp-content/themes/Novy/js/adriver.core.2.js?ver=1.0"></script>
+<script language="JavaScript"><!--
+	var N = 3;
+	var ar_bn1 = Math.floor(Math.random() * N + 1);
+	//-->
+
+
+</script>
+
+<div class="adriver-box">
+	<style type="text/css">
+.de-vote {
+position: inherit;
+}
+</style>
+<style type="text/css">
+#adriver_top {text-align: center !important}
+</style>
+
+
+<!-- (C)2000-2014 Gemius SA - gemiusAudience / novy.tv / Main -->
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var pp_gemius_identifier = 'd1.rEoejCKpTUXcV_Qtrd2YkXfXZSUcASgjXuacs.iT.G7';
+// lines below shouldn't be edited
+function gemius_pending(i) { window[i] = window[i] || function() {var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};
+gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+(function(d,t) {try {var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); gt.setAttribute('async','async');
+gt.setAttribute('defer','defer'); gt.src=l+'://gaua.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) {}})(document,'script');
+//--><!]]>
+</script>
+
+<script language="JavaScript"><!--
+var N = 3;
+var ar_duo1 = Math.floor(Math.random()*N+1);
+//-->
+</script>
+<div id="adriver_top"></div>
+<script type="text/javascript">
+new adriver("adriver_top", {sid: 171085, sz:"main", bt:52, pz:1, bn:ar_duo1});
+</script>
+<!--  AdRiver code START. Type:javascript Site: novy.tv SZ: main PZ: 0 BN: 0 -->
+<script language="javascript" type="text/javascript"><!--
+var RndNum4NoCash = Math.round(Math.random() * 1000000000);
+var ar_Tail='unknown'; if (document.referrer) ar_Tail = escape(document.referrer);
+document.write('<sc' + 'ript language="JavaScript" type="text/javascript" src="http://ad.adriver.ru/cgi-bin/erle.cgi?sid=171085&sz=main&target=blank&bt=16&bn='+ar_duo1+'&bn='+ar_duo1+'&pz=0&rnd=' + RndNum4NoCash + '&tail256=' + ar_Tail + '"><\/sc' + 'ript>');
+//--></script>
+<!--  AdRiver code END  --></div>
+
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s);
+		js.id = id;
+		js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1&appId=499063380209704";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+
+
+</script>
+
+<div id="page-wrap">
+	<div class="wrapper">
+
+		<!-- HEADER -->
+		<header id="header">
+
+			<div id="main-nav">
+
+				<a id="logo" href="http://novy.tv"><img src="http://novy.tv/wp-content/themes/Novy/images/logonew.png" width="99" height="99" alt="Новий канал" /></a>
+
+				
+				<div id="schedule">
+
+	<div class="schedule-inner">
+
+		
+		<nav id="schedule-nav">
+			<ul>
+
+				<li><a data-day="monday" class="" href="http://novy.tv/tv/monday">ПН</a></li><li><a data-day="tuesday" class="" href="http://novy.tv/tv/tuesday">ВТ</a></li><li><a data-day="wednesday" class="" href="http://novy.tv/tv/wednesday">СР</a></li><li><a data-day="thursday" class="current" href="http://novy.tv/tv/thursday">ЧТ</a></li><li><a data-day="friday" class="" href="http://novy.tv/tv/friday">ПТ</a></li><li><a data-day="saturday" class="" href="http://novy.tv/tv/saturday">СБ</a></li><li><a data-day="sunday" class="" href="http://novy.tv/tv/sunday">НД</a></li>
+				<li><a href="#" class="close-schedule"></a></li>
+			</ul>
+		</nav>
+
+		<div class="day-shows">
+
+			<div class="days-holder">
+
+				 <div class="day-programm" id="day-monday"><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/telemagazin/"><div class="dp-time">05:30</div><div class="dp-name">Телемагазин</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/kids-time/"><div class="dp-time">06:30</div><div class="dp-name">Kids Time</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/prigodi-dzheki-chana/"><div class="dp-time">06:35</div><div class="dp-name">Пригоди Джекі Чана</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/panda-kung-fu-legendi-krutosti/"><div class="dp-time">06:50</div><div class="dp-name">Панда Кунг-Фу: Легенди крутості</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/kids-time/"><div class="dp-time">07:45</div><div class="dp-name">Kids Time</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/papiny-dochki/"><div class="dp-time">07:50</div><div class="dp-name">Татусеві дочки</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/angel-ohoronets/"><div class="dp-time">09:45</div><div class="dp-name">Янгол-охоронець</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/molodyata/"><div class="dp-time">12:35</div><div class="dp-name">Молодята</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/voroniny/"><div class="dp-time">16:55</div><div class="dp-name">Вороніни</div></a></div><div class="d-programm"><a class="dp-link" href="http://reporter.novy.tv"><div class="dp-time">18:00</div><div class="dp-name">Репортер</div></a></div><div class="d-programm"><a class="dp-link" href="http://abzats.novy.tv"><div class="dp-time">18:20</div><div class="dp-name">Абзац!</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/voroniny/"><div class="dp-time">19:00</div><div class="dp-name">Вороніни</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tv/akademiya-vampiriv/"><div class="dp-time">20:00</div><div class="dp-name">Т/С СашаТаня</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/poslednij-iz-magikyan/"><div class="dp-time">21:00</div><div class="dp-name">Останній із Магікян</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/avantyuristi/"><div class="dp-time">22:40</div><div class="dp-name">Авантюристи</div></a></div><div class="d-programm"><a class="dp-link" href="http://abzats.novy.tv"><div class="dp-time">00:35</div><div class="dp-name">Абзац!</div></a></div><div class="d-programm"><a class="dp-link" href="http://reporter.novy.tv"><div class="dp-time">01:15</div><div class="dp-name">Репортер</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/sluzhba-rozy-ska-detej/"><div class="dp-time">01:20</div><div class="dp-name">Служба розшуку дітей</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/anonim/"><div class="dp-time">01:25</div><div class="dp-name">Анонім</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/zona-nochi/"><div class="dp-time">03:30</div><div class="dp-name">Зона ночі</div></a></div></div> <div class="day-programm" id="day-tuesday"><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/telemagazin/"><div class="dp-time">05:35</div><div class="dp-name">Телемагазин</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/kids-time/"><div class="dp-time">06:35</div><div class="dp-name">Kids Time</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/prigodi-dzheki-chana/"><div class="dp-time">06:40</div><div class="dp-name">Пригоди Джекі Чана</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/panda-kung-fu-legendi-krutosti/"><div class="dp-time">06:55</div><div class="dp-name">Панда Кунг-Фу: Легенди крутості</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/kids-time/"><div class="dp-time">07:55</div><div class="dp-name">Kids Time</div></a></div><div class="d-programm"><a class="dp-link" href="http://reporter.novy.tv"><div class="dp-time">08:00</div><div class="dp-name">Репортер</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/papiny-dochki/"><div class="dp-time">08:05</div><div class="dp-name">Татусеві дочки</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/cchastlivy-vmeste/"><div class="dp-time">10:05</div><div class="dp-name">Щасливі разом</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/voroniny/"><div class="dp-time">16:55</div><div class="dp-name">Вороніни</div></a></div><div class="d-programm"><a class="dp-link" href="http://reporter.novy.tv"><div class="dp-time">18:00</div><div class="dp-name">Репортер</div></a></div><div class="d-programm"><a class="dp-link" href="http://abzats.novy.tv"><div class="dp-time">18:20</div><div class="dp-name">Абзац!</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/voroniny/"><div class="dp-time">19:00</div><div class="dp-name">Вороніни</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/sashatanya/"><div class="dp-time">20:00</div><div class="dp-name">СашаТаня</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/poslednij-iz-magikyan/"><div class="dp-time">21:00</div><div class="dp-name">Останній із Магікян</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/veliki-pochuttya/"><div class="dp-time">22:40</div><div class="dp-name">Великі почуття</div></a></div><div class="d-programm"><a class="dp-link" href="http://abzats.novy.tv"><div class="dp-time">00:40</div><div class="dp-name">Абзац!</div></a></div><div class="d-programm"><a class="dp-link" href="http://reporter.novy.tv"><div class="dp-time">01:25</div><div class="dp-name">Репортер</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/plitkarka/"><div class="dp-time">01:30</div><div class="dp-name">Пліткарка</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/zona-nochi/"><div class="dp-time">03:40</div><div class="dp-name">Зона ночі</div></a></div></div> <div class="day-programm" id="day-wednesday"><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/telemagazin/"><div class="dp-time">05:35</div><div class="dp-name">Телемагазин</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/kids-time/"><div class="dp-time">06:35</div><div class="dp-name">Kids Time</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/prigodi-dzheki-chana/"><div class="dp-time">06:40</div><div class="dp-name">Пригоди Джекі Чана</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/panda-kung-fu-legendi-krutosti/"><div class="dp-time">06:55</div><div class="dp-name">Панда Кунг-Фу: Легенди крутості</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/kids-time/"><div class="dp-time">07:55</div><div class="dp-name">Kids Time</div></a></div><div class="d-programm"><a class="dp-link" href="http://reporter.novy.tv"><div class="dp-time">08:00</div><div class="dp-name">Репортер</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/papiny-dochki/"><div class="dp-time">08:05</div><div class="dp-name">Татусеві дочки</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/molodyata/"><div class="dp-time">10:05</div><div class="dp-name">Молодята</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/voroniny/"><div class="dp-time">16:55</div><div class="dp-name">Вороніни</div></a></div><div class="d-programm"><a class="dp-link" href="http://reporter.novy.tv"><div class="dp-time">18:00</div><div class="dp-name">Репортер</div></a></div><div class="d-programm"><a class="dp-link" href="http://abzats.novy.tv"><div class="dp-time">18:20</div><div class="dp-name">Абзац!</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/voroniny/"><div class="dp-time">19:00</div><div class="dp-name">Вороніни</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/sashatanya/"><div class="dp-time">20:00</div><div class="dp-name">СашаТаня</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/poslednij-iz-magikyan/"><div class="dp-time">21:00</div><div class="dp-name">Останній із Магікян</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/veliki-pochuttya/"><div class="dp-time">22:40</div><div class="dp-name">Великі почуття</div></a></div><div class="d-programm"><a class="dp-link" href="http://abzats.novy.tv"><div class="dp-time">00:40</div><div class="dp-name">Абзац!</div></a></div><div class="d-programm"><a class="dp-link" href="http://reporter.novy.tv"><div class="dp-time">01:25</div><div class="dp-name">Репортер</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/sluzhba-rozy-ska-detej/"><div class="dp-time">01:30</div><div class="dp-name">Служба розшуку дітей</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/zona-nochi/"><div class="dp-time">03:45</div><div class="dp-name">Зона ночі</div></a></div></div> <div class="day-programm current-day" id="day-thursday"><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/telemagazin/"><div class="dp-time">05:35</div><div class="dp-name">Телемагазин</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/kids-time/"><div class="dp-time">06:35</div><div class="dp-name">Kids Time</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/prigodi-dzheki-chana/"><div class="dp-time">06:40</div><div class="dp-name">Пригоди Джекі Чана</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/panda-kung-fu-legendi-krutosti/"><div class="dp-time">06:55</div><div class="dp-name">Панда Кунг-Фу: Легенди крутості</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/kids-time/"><div class="dp-time">07:55</div><div class="dp-name">Kids Time</div></a></div><div class="d-programm"><a class="dp-link" href="http://reporter.novy.tv"><div class="dp-time">08:00</div><div class="dp-name">Репортер</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/papiny-dochki/"><div class="dp-time">08:05</div><div class="dp-name">Татусеві дочки</div></a></div><div class="d-programm active"><a class="dp-link" href="http://novy.tv/tvproject/cchastlivy-vmeste/"><div class="dp-time">10:05</div><div class="dp-name">Щасливі разом</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/voroniny/"><div class="dp-time">16:55</div><div class="dp-name">Вороніни</div></a></div><div class="d-programm"><a class="dp-link" href="http://reporter.novy.tv"><div class="dp-time">18:00</div><div class="dp-name">Репортер</div></a></div><div class="d-programm"><a class="dp-link" href="http://abzats.novy.tv"><div class="dp-time">18:20</div><div class="dp-name">Абзац!</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv"><div class="dp-time">19:00</div><div class="dp-name">Т/С Воронины</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/sashatanya/"><div class="dp-time">20:00</div><div class="dp-name">СашаТаня</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv"><div class="dp-time">21:00</div><div class="dp-name">Т/С Последний из Магикян</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv"><div class="dp-time">22:40</div><div class="dp-name">Большие чувства</div></a></div><div class="d-programm"><a class="dp-link" href="http://abzats.novy.tv"><div class="dp-time">00:40</div><div class="dp-name">Абзац!</div></a></div><div class="d-programm"><a class="dp-link" href="http://reporter.novy.tv"><div class="dp-time">01:25</div><div class="dp-name">Репортер</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/sluzhba-rozy-ska-detej/"><div class="dp-time">01:30</div><div class="dp-name">Служба розшуку дітей</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv"><div class="dp-time">01:35</div><div class="dp-name">Т/С Сплетница-5</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv"><div class="dp-time">03:45</div><div class="dp-name">Зона ночи</div></a></div></div> <div class="day-programm" id="day-friday"><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/sluzhba-rozy-ska-detej/"><div class="dp-time">05:30</div><div class="dp-name">Служба розшуку дітей</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/telemagazin/"><div class="dp-time">05:35</div><div class="dp-name">Телемагазин</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/kids-time/"><div class="dp-time">06:35</div><div class="dp-name">Kids Time</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/prigodi-dzheki-chana/"><div class="dp-time">06:40</div><div class="dp-name">Пригоди Джекі Чана</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/panda-kung-fu-legendi-krutosti/"><div class="dp-time">06:55</div><div class="dp-name">Панда Кунг-Фу: Легенди крутості</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/kids-time/"><div class="dp-time">07:55</div><div class="dp-name">Kids Time</div></a></div><div class="d-programm"><a class="dp-link" href="http://reporter.novy.tv"><div class="dp-time">08:00</div><div class="dp-name">Репортер</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/papiny-dochki/"><div class="dp-time">08:05</div><div class="dp-name">Татусеві дочки</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv"><div class="dp-time">10:05</div><div class="dp-name">Т/С Воронины</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tv/akademiya-vampiriv/"><div class="dp-time">18:00</div><div class="dp-name">Репортер</div></a></div><div class="d-programm"><a class="dp-link" href="http://abzats.novy.tv"><div class="dp-time">18:20</div><div class="dp-name">Абзац!</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/voroniny/"><div class="dp-time">19:00</div><div class="dp-name">Вороніни</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/sashatanya/"><div class="dp-time">20:00</div><div class="dp-name">СашаТаня</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/helboj-geroj-iz-pekla/"><div class="dp-time">21:00</div><div class="dp-name">Хелбой: герой із пекла</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/privid-marsu/"><div class="dp-time">23:00</div><div class="dp-name">Привид Марсу</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tv/akademiya-vampiriv/"><div class="dp-time">00:45</div><div class="dp-name">Репортер</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv"><div class="dp-time">00:50</div><div class="dp-name">Т/С Сплетница 5</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv"><div class="dp-time">03:05</div><div class="dp-name">Зона ночи</div></a></div></div> <div class="day-programm" id="day-saturday"><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/telemagazin/"><div class="dp-time">05:35</div><div class="dp-name">Телемагазин</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/lol/"><div class="dp-time">06:35</div><div class="dp-name">LOL :)</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/monstri-proti-pribultsiv/"><div class="dp-time">08:00</div><div class="dp-name">Монстри проти прибульців</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/tom-i-dzherri-fil-m/"><div class="dp-time">09:50</div><div class="dp-name">Том і Джеррі: Фільм</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/gremlini/"><div class="dp-time">11:45</div><div class="dp-name">Гремліни</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/sashatanya/"><div class="dp-time">13:50</div><div class="dp-name">СашаТаня</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/helboj-geroj-iz-pekla/"><div class="dp-time">18:40</div><div class="dp-name">Хелбой: герой із пекла</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/pyaty-j-e-lement/"><div class="dp-time">20:40</div><div class="dp-name">П&#8217;ятий елемент</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/primanki/"><div class="dp-time">23:05</div><div class="dp-name">Приманки</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/plitkarka/"><div class="dp-time">01:05</div><div class="dp-name">Пліткарка</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/zona-nochi/"><div class="dp-time">03:30</div><div class="dp-name">Зона ночі</div></a></div></div> <div class="day-programm" id="day-sunday"><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/bob-gubko-kvadratni-shtani/"><div class="dp-time">05:50</div><div class="dp-name">Губко Боб Квадратні Штани</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/panda-kung-fu-legendi-krutosti/"><div class="dp-time">07:45</div><div class="dp-name">Панда Кунг-Фу: Легенди крутості</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/monstr-v-parizhi/"><div class="dp-time">10:50</div><div class="dp-name">Монстр в Парижі</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/poslednij-iz-magikyan/"><div class="dp-time">12:40</div><div class="dp-name">Останній із Магікян</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/zatura-kosmicheskoe-puteshestvie/"><div class="dp-time">18:40</div><div class="dp-name">Затура: Космічна подорож</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/igra-e-ndera/"><div class="dp-time">20:40</div><div class="dp-name">Гра Ендера</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/fakultet/"><div class="dp-time">22:50</div><div class="dp-name">Факультет</div></a></div></div> <div class="day-programm" id="day-"><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/privid-marsu/"><div class="dp-time">00:30</div><div class="dp-name">Привид Марсу</div></a></div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/zona-nochi/"><div class="dp-time">03:30</div><div class="dp-name">Зона ночі</div></a></div></div>
+			</div>
+
+		</div>
+
+		<a class="open-page" href="http://novy.tv/ua/tv/">
+			Відкрити на окремій сторінці		</a>
+
+	</div>
+
+</div>
+				
+				<div id="nav">
+					<ul>
+						<li>
+							<a href="http://novy.tv/projects/">Проекти</a>
+						</li>
+						<li>
+							<a class="show-programm" href="http://novy.tv/tv/">Телепрограма</a>
+						</li>
+					</ul>
+				</div>
+
+				<!-- SEARCH FORM -->
+<form id="searchform" class="" action="http://novy.tv" method="get">
+	<fieldset>
+		<input type="text" id="s" name="s" onfocus="if(this.value=='Пошук') this.value=''; var searchForm = document.getElementById('searchform'); searchForm.className = searchForm.className + 'focused-form';" onblur="if(this.value=='') this.value='Пошук'; var searchForm = document.getElementById('searchform'); searchForm.className = searchForm.className.replace(/\bfocused-form\b/,'');" value="Пошук" />
+		<button id="searchsubmit"></button>
+	</fieldset>
+</form>
+<!-- [END] SEARCH FORM -->
+				<nav id="header-socials">
+					<ul class="social_links">
+						<li>
+							<a target="_blank" class="soc-link soc-link-vk" href="http://vk.com/novy_channel"></a>
+						</li>
+						<li>
+							<a target="_blank" class="soc-link soc-link-fb" href="https://www.facebook.com/NovyChannel"></a>
+						</li>
+						<li>
+							<a target="_blank" class="soc-link soc-link-tw" href="https://twitter.com/NovyChannel"></a>
+						</li>
+						<li>
+							<a target="_blank" class="soc-link soc-link-ins" href="https://instagram.com/novy_channel"></a>
+						</li>
+						<li>
+							<a target="_blank" class="soc-link soc-link-gp" href="https://plus.google.com/u/0/+novychannel/posts"></a>
+						</li>
+						<li>
+							<a target="_blank" class="soc-link soc-link-you" href="http://www.youtube.com/user/novychannel"></a>
+						</li>
+					</ul>
+				</nav>
+
+				<div id="user-menu">
+											<a class="auth-modal" href="#">Вхід</a> ·
+						<a class="auth-modal auth-sinup" href="#">Реєстрація</a>
+									</div>
+
+				<div id="lang">
+
+												<a href="http://novy.tv/tv/thursday/" class="lang-ua current-lang">
+								Укр							</a>
+													<a href="http://novy.tv/ru/tv/thursday/" class="lang-ru ">
+								Рус							</a>
+						
+				</div>
+
+			</div>
+
+			
+		</header>
+		<!-- [END] HEADER -->
+
+		<div id="container">
+
+			
+			<div class="content-wrapper">
+<div class="section">
+    <div class="section-title" data-section-color="#8C1A25" id="sctn-tv">
+        <i class="icon icon-section icon-s-camera"></i>
+        Програма    </div>
+
+    <div id="full-schedule">
+
+    <div class="full-schedule-inner">
+
+        <nav id="full-schedule-nav">
+            <ul>
+
+                <li><a class="" href="http://novy.tv/tv/monday">ПН<span class="f-date">23.02.2015</span></a></li><li><a class="" href="http://novy.tv/tv/tuesday">ВТ<span class="f-date">24.02.2015</span></a></li><li><a class="" href="http://novy.tv/tv/wednesday">СР<span class="f-date">25.02.2015</span></a></li><li><a class="current" href="http://novy.tv/tv/thursday">ЧТ<span class="f-date">26.02.2015</span></a></li><li><a class="" href="http://novy.tv/tv/friday">ПТ<span class="f-date">27.02.2015</span></a></li><li><a class="" href="http://novy.tv/tv/saturday">СБ<span class="f-date">28.02.2015</span></a></li><li><a class="" href="http://novy.tv/tv/sunday">НД<span class="f-date">01.03.2015</span></a></li>            </ul>
+        </nav>
+
+        <div class="f-day-shows">
+
+            <div class="f-day-programm" id="f-day-1">
+
+                <div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/telemagazin/"><div class="dp-time">05:35</div><div class="dp-thumb"><img src="http://novy.tv/wp-content/uploads/sites/96/2014/12/telemagazin-185x115.jpg" alt="" /></div><div class="dp-name">Телемагазин</div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://novy.tv/tvproject/telemagazin/">
+                                            <img src="http://novy.tv/wp-content/uploads/sites/96/2014/12/telemagazin-400x250.jpg" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2>Телемагазин</h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                        Телемагазин пропонує товари для дому, краси і здоров&#8217;я. Тільки потрібні вам речі й оригінальні ідеї для подарунків.
+                                    </div>
+
+                                    <a class="tv-watch" href="http://novy.tv/tvproject/telemagazin/">Ще</a>
+                                </div>
+                            </div>
+
+                            </div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/kids-time/"><div class="dp-time">06:35</div><div class="dp-thumb"><img src="http://novy.tv/wp-content/uploads/sites/96/2014/05/kids_time_300-250-185x115.jpg" alt="" /></div><div class="dp-name">Kids Time</div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://novy.tv/tvproject/kids-time/">
+                                            <img src="http://novy.tv/wp-content/uploads/sites/96/2014/05/kids_time_300-250.jpg" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2>Kids Time</h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                        Порадувати юних глядачів мультфільмами та поділитися гарним настроєм може тільки та, у кого життєрадісної енергії вистачить на всіх. Саша Єгорова &#82...                                    </div>
+
+                                    <a class="tv-watch" href="http://novy.tv/tvproject/kids-time/">Ще</a>
+                                </div>
+                            </div>
+
+                            </div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/prigodi-dzheki-chana/"><div class="dp-time">06:40</div><div class="dp-thumb"><img src="http://novy.tv/wp-content/uploads/sites/96/2014/08/jekki-chan-185x115.jpg" alt="" /></div><div class="dp-name">Пригоди Джекі Чана</div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://novy.tv/tvproject/prigodi-dzheki-chana/">
+                                            <img src="http://novy.tv/wp-content/uploads/sites/96/2014/08/jekki-chan.jpg" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2>Пригоди Джекі Чана</h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                        Образ анімаційного персонажу Джекі об`єднав у собі риси відразу двох відомих героїв: прославленого археолога Індіани Джонса й всесвітньо відомого акто...                                    </div>
+
+                                    <a class="tv-watch" href="http://novy.tv/tvproject/prigodi-dzheki-chana/">Ще</a>
+                                </div>
+                            </div>
+
+                            </div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/panda-kung-fu-legendi-krutosti/"><div class="dp-time">06:55</div><div class="dp-thumb"><img src="http://novy.tv/wp-content/uploads/sites/96/2014/12/kung-fu-185x115.jpg" alt="" /></div><div class="dp-name">Панда Кунг-Фу: Легенди крутості</div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://novy.tv/tvproject/panda-kung-fu-legendi-krutosti/">
+                                            <img src="http://novy.tv/wp-content/uploads/sites/96/2014/12/kung-fu-400x250.jpg" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2>Панда Кунг-Фу: Легенди крутості</h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                        Непереможний майстер Тай Лунг змушує страждати жителів Долини Миру від своєї жорстокості. Врятувати ситуацію може тільки Воїн Дракона.
+Нелегку місію з...                                    </div>
+
+                                    <a class="tv-watch" href="http://novy.tv/tvproject/panda-kung-fu-legendi-krutosti/">Ще</a>
+                                </div>
+                            </div>
+
+                            </div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/kids-time/"><div class="dp-time">07:55</div><div class="dp-thumb"><img src="http://novy.tv/wp-content/uploads/sites/96/2014/05/kids_time_300-250-185x115.jpg" alt="" /></div><div class="dp-name">Kids Time</div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://novy.tv/tvproject/kids-time/">
+                                            <img src="http://novy.tv/wp-content/uploads/sites/96/2014/05/kids_time_300-250.jpg" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2>Kids Time</h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                        Порадувати юних глядачів мультфільмами та поділитися гарним настроєм може тільки та, у кого життєрадісної енергії вистачить на всіх. Саша Єгорова &#82...                                    </div>
+
+                                    <a class="tv-watch" href="http://novy.tv/tvproject/kids-time/">Ще</a>
+                                </div>
+                            </div>
+
+                            </div><div class="d-programm"><a class="dp-link" href="http://reporter.novy.tv"><div class="dp-time">08:00</div><div class="dp-thumb"><img src="http://reporter.novy.tv/wp-content/uploads/sites/114/2014/09/reporter_225-1601.jpg" alt="" /></div><div class="dp-name">Репортер</div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://reporter.novy.tv">
+                                            <img src="http://reporter.novy.tv/wp-content/uploads/sites/114/2014/09/reporter_300-2501.jpg" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2>Репортер</h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                        Останні новини України та світу в інформаційних випусках новин на Новому Каналі. Політика, економіка, культура та спорт – все, що ви хочете знати!                                    </div>
+
+                                    <a class="tv-watch" href="http://reporter.novy.tv">Ще</a>
+                                </div>
+                            </div>
+
+                            </div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/papiny-dochki/"><div class="dp-time">08:05</div><div class="dp-thumb"><img src="http://novy.tv/wp-content/uploads/sites/96/2014/04/pap_doch_300-250-185x115.jpg" alt="" /></div><div class="dp-name">Татусеві дочки</div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://novy.tv/tvproject/papiny-dochki/">
+                                            <img src="http://novy.tv/wp-content/uploads/sites/96/2014/04/pap_doch_300-250.jpg" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2>Татусеві дочки</h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                        Довгоочікуване возз&#8217;єднання сім&#8217;ї Васнєцових! 
+Мама, тато і п&#8217;ять дочок будуть жити разом.
+Вони подорослішали та змінилися.
+Вони ста...                                    </div>
+
+                                    <a class="tv-watch" href="http://novy.tv/tvproject/papiny-dochki/">Ще</a>
+                                </div>
+                            </div>
+
+                            </div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/cchastlivy-vmeste/"><div class="dp-time">10:05</div><div class="dp-thumb"><img src="http://novy.tv/wp-content/uploads/sites/96/2014/04/schastlivy-vmeste-169x115.jpg" alt="" /></div><div class="dp-name">Щасливі разом</div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://novy.tv/tvproject/cchastlivy-vmeste/">
+                                            <img src="http://novy.tv/wp-content/uploads/sites/96/2014/04/schastlivy-vmeste.jpg" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2>Щасливі разом</h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                        Букіни змінюються! І, як не дивно, на краще!
+Гена подається у політику. Даша кидає палити. Рома закохується. А Свєтка виходить заміж!
+Гена знайде свог...                                    </div>
+
+                                    <a class="tv-watch" href="http://novy.tv/tvproject/cchastlivy-vmeste/">Ще</a>
+                                </div>
+                            </div>
+
+                            </div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/voroniny/"><div class="dp-time">16:55</div><div class="dp-thumb"><img src="http://novy.tv/wp-content/uploads/sites/96/2014/04/Voroniny-169x115.jpg" alt="" /></div><div class="dp-name">Вороніни</div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://novy.tv/tvproject/voroniny/">
+                                            <img src="http://novy.tv/wp-content/uploads/sites/96/2014/04/Voroniny.jpg" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2>Вороніни</h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                        У нових серіях &#8220;Вороніних&#8221; чекають нові пригоди. Сергій, батько Віри, нещасний у стосунках. Віра спробує допомогти йому з особистим життям...                                    </div>
+
+                                    <a class="tv-watch" href="http://novy.tv/tvproject/voroniny/">Ще</a>
+                                </div>
+                            </div>
+
+                            </div><div class="d-programm"><a class="dp-link" href="http://reporter.novy.tv"><div class="dp-time">18:00</div><div class="dp-thumb"><img src="http://reporter.novy.tv/wp-content/uploads/sites/114/2014/09/reporter_225-1601.jpg" alt="" /></div><div class="dp-name">Репортер</div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://reporter.novy.tv">
+                                            <img src="http://reporter.novy.tv/wp-content/uploads/sites/114/2014/09/reporter_300-2501.jpg" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2>Репортер</h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                        Останні новини України та світу в інформаційних випусках новин на Новому Каналі. Політика, економіка, культура та спорт – все, що ви хочете знати!                                    </div>
+
+                                    <a class="tv-watch" href="http://reporter.novy.tv">Ще</a>
+                                </div>
+                            </div>
+
+                            </div><div class="d-programm"><a class="dp-link" href="http://abzats.novy.tv"><div class="dp-time">18:20</div><div class="dp-thumb"><img src="http://abzats.novy.tv/wp-content/uploads/sites/102/2014/09/abzac_small.jpg" alt="" /></div><div class="dp-name">Абзац!</div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://abzats.novy.tv">
+                                            <img src="http://abzats.novy.tv/wp-content/uploads/sites/102/2014/09/abzac_mid.jpg" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2>Абзац!</h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                        Важливі події України та світу подаємо з нового "Абзацу!" C гумором, іронією, імпровізацією і практичною користю для глядача. "Абзац!" – розважально-інформаційна програма у форматі інфотейнмент. Ексклюзивний проект, аналогів якому немає в Україні!                                    </div>
+
+                                    <a class="tv-watch" href="http://abzats.novy.tv">Ще</a>
+                                </div>
+                            </div>
+
+                            </div><div class="d-programm"><a class="dp-link" href="http://novy.tv"><div class="dp-time">19:00</div><div class="dp-thumb"><img src="" alt="" /></div><div class="dp-name"></div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://novy.tv">
+                                            <img src="" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2></h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                                                            </div>
+
+                                    <a class="tv-watch" href="http://novy.tv">Ще</a>
+                                </div>
+                            </div>
+
+                            </div><div class="d-programm"><a class="dp-link" href="http://novy.tv/tvproject/sashatanya/"><div class="dp-time">20:00</div><div class="dp-thumb"><img src="http://novy.tv/wp-content/uploads/sites/96/2015/01/14-185x115.jpg" alt="" /></div><div class="dp-name">СашаТаня</div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://novy.tv/tvproject/sashatanya/">
+                                            <img src="http://novy.tv/wp-content/uploads/sites/96/2015/01/14-400x250.jpg" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2>СашаТаня</h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                        Серіал про молоду сім&#8217;ю Сергєєвих. Після закінчення інституту Саша і Таня разом зі своїм маленьким сином Альошкою вирішили пожити самостійно і з...                                    </div>
+
+                                    <a class="tv-watch" href="http://novy.tv/tvproject/sashatanya/">Ще</a>
+                                </div>
+                            </div>
+
+                            </div><div class="d-programm"><a class="dp-link" href="http://novy.tv"><div class="dp-time">21:00</div><div class="dp-thumb"><img src="" alt="" /></div><div class="dp-name"></div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://novy.tv">
+                                            <img src="" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2></h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                                                            </div>
+
+                                    <a class="tv-watch" href="http://novy.tv">Ще</a>
+                                </div>
+                            </div>
+
+                            </div><div class="d-programm"><a class="dp-link" href="http://novy.tv"><div class="dp-time">22:40</div><div class="dp-thumb"><img src="" alt="" /></div><div class="dp-name"></div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://novy.tv">
+                                            <img src="" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2></h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                                                            </div>
+
+                                    <a class="tv-watch" href="http://novy.tv">Ще</a>
+                                </div>
+                            </div>
+
+                            </div><div class="d-programm last-d-programm"><a class="dp-link" href="http://abzats.novy.tv"><div class="dp-time">00:40</div><div class="dp-thumb"><img src="http://abzats.novy.tv/wp-content/uploads/sites/102/2014/09/abzac_small.jpg" alt="" /></div><div class="dp-name">Абзац!</div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://abzats.novy.tv">
+                                            <img src="http://abzats.novy.tv/wp-content/uploads/sites/102/2014/09/abzac_mid.jpg" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2>Абзац!</h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                        Важливі події України та світу подаємо з нового "Абзацу!" C гумором, іронією, імпровізацією і практичною користю для глядача. "Абзац!" – розважально-інформаційна програма у форматі інфотейнмент. Ексклюзивний проект, аналогів якому немає в Україні!                                    </div>
+
+                                    <a class="tv-watch" href="http://abzats.novy.tv">Ще</a>
+                                </div>
+                            </div>
+
+                            </div><div class="d-programm last-d-programm"><a class="dp-link" href="http://reporter.novy.tv"><div class="dp-time">01:25</div><div class="dp-thumb"><img src="http://reporter.novy.tv/wp-content/uploads/sites/114/2014/09/reporter_225-1601.jpg" alt="" /></div><div class="dp-name">Репортер</div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://reporter.novy.tv">
+                                            <img src="http://reporter.novy.tv/wp-content/uploads/sites/114/2014/09/reporter_300-2501.jpg" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2>Репортер</h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                        Останні новини України та світу в інформаційних випусках новин на Новому Каналі. Політика, економіка, культура та спорт – все, що ви хочете знати!                                    </div>
+
+                                    <a class="tv-watch" href="http://reporter.novy.tv">Ще</a>
+                                </div>
+                            </div>
+
+                            </div><div class="d-programm last-d-programm"><a class="dp-link" href="http://novy.tv/tvproject/sluzhba-rozy-ska-detej/"><div class="dp-time">01:30</div><div class="dp-thumb"><img src="http://novy.tv/wp-content/uploads/sites/96/2014/04/poisk_detey_300-250-185x115.jpg" alt="" /></div><div class="dp-name">Служба розшуку дітей</div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://novy.tv/tvproject/sluzhba-rozy-ska-detej/">
+                                            <img src="http://novy.tv/wp-content/uploads/sites/96/2014/04/poisk_detey_300-250.jpg" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2>Служба розшуку дітей</h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                        У програмі дається інформація про зниклих без звісті дітей, інформація про дітей, чия особистість не встановлена, і контактні номери телефонів для над...                                    </div>
+
+                                    <a class="tv-watch" href="http://novy.tv/tvproject/sluzhba-rozy-ska-detej/">Ще</a>
+                                </div>
+                            </div>
+
+                            </div><div class="d-programm last-d-programm"><a class="dp-link" href="http://novy.tv"><div class="dp-time">01:35</div><div class="dp-thumb"><img src="" alt="" /></div><div class="dp-name"></div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://novy.tv">
+                                            <img src="" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2></h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                                                            </div>
+
+                                    <a class="tv-watch" href="http://novy.tv">Ще</a>
+                                </div>
+                            </div>
+
+                            </div><div class="d-programm last-d-programm"><a class="dp-link" href="http://novy.tv"><div class="dp-time">03:45</div><div class="dp-thumb"><img src="" alt="" /></div><div class="dp-name"></div></a>
+                            <div class="tv-popup">
+                                <div class="tv-popup-holder">
+                                    <div class="tv-thumb">
+                                        <a href="http://novy.tv">
+                                            <img src="" alt="" />
+                                        </a>
+                                    </div>
+
+                                    <div class="tv-title">
+                                        <h2></h2>
+                                                                            </div>
+                                    <div class="tv-meta">
+                                                                            </div>
+                                    <div class="tv-desc">
+                                                                            </div>
+
+                                    <a class="tv-watch" href="http://novy.tv">Ще</a>
+                                </div>
+                            </div>
+
+                            </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+    <div class="programm-sidebar">
+
+        <div id="adriver_premium"></div>
+<script type="text/javascript">
+      new adriver("adriver_premium", {sid: 171085, sz:"main", bt:52, pz:2, bn:ar_duo1});
+</script>
+    </div>
+</div>
+</div>
+
+</div>
+
+<!-- FOOTER -->
+<footer id="footer">
+
+	<div class="footer-content">
+		<div class="footer-nav-holder">
+
+			
+				<!-- NAV -->
+				<nav id="footer-nav" class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-39766" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39766"><a href="http://novy.tv/o-kanale/">Про канал</a></li>
+<li id="menu-item-39822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39822"><a href="http://novy.tv/priem-signala/">Прийом сигналу</a></li>
+<li id="menu-item-39850" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39850"><a href="http://novy.tv/reklama/">Реклама</a></li>
+<li id="menu-item-39786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39786"><a href="http://novy.tv/biznes/">Вакансії</a></li>
+<li id="menu-item-39854" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39854"><a href="http://novy.tv/pravila-sajta/">Правила сайту</a></li>
+<li id="menu-item-50311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50311"><a href="http://novy.tv/smi-o-nas/">ЗМІ про нас</a></li>
+<li id="menu-item-52204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52204"><a href="http://novy.tv/oblichchya-kanalu/">Обличчя каналу</a></li>
+<li id="menu-item-83952" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83952"><a href="http://novy.tv/redaktsijni-printsipi/">Редакційні принципи</a></li>
+</ul></nav>				<!-- [END] NAV -->
+
+			
+			<nav id="footer-socials">
+				<ul class="social_links">
+					<li><a target="_blank" class="soc-link soc-link-vk" href="http://vk.com/novy_channel"></a></li>
+					<li><a target="_blank" class="soc-link soc-link-fb" href="https://www.facebook.com/NovyChannel"></a>
+					</li>
+					<li>
+						<a target="_blank" class="soc-link soc-link-gp" href="https://plus.google.com/u/0/+novychannel/posts"></a>
+					</li>
+					<li><a target="_blank" class="soc-link soc-link-tw" href="https://twitter.com/NovyChannel"></a></li>
+					<li><a target="_blank" class="soc-link soc-link-ins" href="https://instagram.com/novy_channel"></a>
+					</li>
+					<li>
+						<a target="_blank" class="soc-link soc-link-you" href="http://www.youtube.com/user/novychannel"></a>
+					</li>
+				</ul>
+			</nav>
+
+		</div>
+
+		<div class="footer-copyrights">
+			«Новий канал» входить до групи&nbsp;&nbsp;<a target="_blank" class="starlight-media" href="http://www.starlightmedia.ua/"></a>,&nbsp;яка об`єднує 15 компаній			<br />
+			<br />
+
+			<p>© ТОВ НОВИЙ КАНАЛ 2011 КОМУТАТОР: (+380 44) 501-99-28 ПРИ ПЕРЕДРУКУВАННІ МАТЕРІАЛІВ НОВОГО КАНАЛУ ГІПЕРПОСИЛАННЯ НА ПЕРШОДЖЕРЕЛО ОБОВ’ЯЗКОВЕ</p>
+			<a class="footer-logo" href="http://novy.tv"></a>
+
+		</div>
+
+		<div class="footer-legal">
+			<p>«Новый канал» є учасником ініціативи «Чисте небо» щодо захисту прав інтелектуальної власності в мережі Інтернет. Детальну інформацію та контакти для переговорів щодо отримання прав на розміщення відео можна знайти на сайті ініціативи <a target="_blank" href="http://www.legalcontentua.com">www.legalcontentua.com</a>
+			</p>
+		</div>
+	</div>
+</footer>
+<!-- [END] FOOTER -->
+
+</div>
+
+<div id="popup">Дані збережені</div>
+
+
+<div class="fade-bg">
+
+    <div class="modal-window auth-window">
+
+        <div class="modal-header">
+
+            <div class="mw-wrap">
+                <div class="mh-title">
+
+                    
+                                                    <a data-form-id="singin" class="link-to-form current-form-link link-to-singin" href="#">Вхід</a>
+                            <span>або</span>
+                            <a data-form-id="singup" class="link-to-form link-to-singup" href="#">Реєстрація</a>
+                                                            </div>
+
+                                    <a href="#" class="close-modal"></a>
+                            </div>
+
+        </div>
+
+        <div class="modal-inner">
+
+            <div class="mw-wrap">
+
+                <div class="auth-col auth-col-1">
+                    <div class="auth-col-inner">
+
+                        <div class="auth-forms-slide">
+
+                            
+            <form class="form-elements" action="http://novy.tv/wp-admin/admin-ajax.php" id="reset-password">
+                <div class="form-inner">
+                    <div class="field-holder">
+                        <label for="singup-email">Email</label>
+                        <input type="text" name="email" id="singup-email" placeholder="Електронна пошта" value="" />
+                    </div>
+
+                    <div class="submit-holder">
+                        <input type="hidden" name="action" value="reset_password" />
+                        <input type="hidden" name="redirect_to" value="http://novy.tv/tv/thursday?post_type=tv&tv_day=thursday" />
+                        <button>Відновити</button>
+                        &nbsp;&nbsp;&nbsp;<a data-form-id="signin" class="pseudo-link link-to-form link-to-singin" href="#"><span>Згадали?</span></a>
+                    </div>
+                </div>
+            </form>
+
+        
+            <form class="form-elements" action="http://novy.tv/wp-admin/admin-ajax.php" id="singin">
+                <div class="form-inner">
+                    <div class="field-holder">
+                        <label for="singin-email">Email:</label>
+                        <input type="text" name="email" id="singin-email" placeholder="Email" value="" />
+                    </div>
+
+                    <div class="field-holder">
+                        <label for="singin-password">Пароль:</label>
+                        <input type="password" name="password" id="singin-password" placeholder="Пароль" value="" />
+                    </div>
+
+                    <div class="submit-holder">
+                        <input type="hidden" name="action" value="singin" />
+                        <input type="hidden" name="redirect_to" value="http://novy.tv" />
+                        <button>Увійти</button>
+                        &nbsp;&nbsp;&nbsp;<a data-form-id="reset-password" class="pseudo-link link-to-form link-to-forgot" href="#"><span>Забули пароль?</span></a>
+                    </div>
+                </div>
+            </form>
+
+        
+            <form class="form-elements" action="http://novy.tv/wp-admin/admin-ajax.php" id="singup">
+                <div class="form-inner">
+                    <div class="field-holder">
+                        <label for="singin-name">Имя:</label>
+                        <input type="text" name="name" id="singup-name" placeholder="Имя" value="" />
+                    </div>
+
+                    <div class="field-holder">
+                        <label for="singin-email">Email:</label>
+                        <input type="text" name="email" id="singup-email" placeholder="Електронна пошта" value="" />
+                    </div>
+
+                    <div class="field-holder">
+                        <label for="singin-password">Пароль:</label>
+                        <input type="password" name="password" id="singup-password" placeholder="Создайте пароль" value="" />
+                    </div>
+
+                    <div class="submit-holder">
+                        <input type="hidden" name="action" value="singup" />
+                        <input type="hidden" name="redirect_to" value="http://novy.tv/tv/thursday?post_type=tv&tv_day=thursday" />
+                        <button>Зареєструватися</button>
+                    </div>
+                </div>
+            </form>
+
+        
+                        </div>
+
+                    </div>
+                </div>
+
+                                    <div class="auth-col auth-col-2">
+                        <div class="auth-col-inner">
+
+                            
+<!--
+	wsl_render_login_form
+	WordPress Social Login Plugin 2.2.2.
+	http://wordpress.org/extend/plugins/wordpress-social-login/
+-->
+
+ 
+<style>
+	#wp-social-login-connect-with{font-weight: bold}#wp-social-login-connect-options{padding:10px}#wp-social-login-connect-options a{text-decoration: none}#wp-social-login-connect-options img{border:0 none}.wsl_connect_with_provider{} 
+</style>
+
+<div class="wp-social-login-widget">
+
+	<div id="wp-social-login-connect-with" class="wp-social-login-connect-with">Connect with:</div>
+
+	<div id="wp-social-login-connect-options" class="wp-social-login-provider-list">
+
+		<a rel="nofollow" href="http://novy.tv/wp-login.php?action=wordpress_social_authenticate&#038;provider=Facebook&#038;redirect_to=http%3A%2F%2Fnovy.tv%2Ftv%2Fthursday%2F" title="Connect with Facebook" class="wsl_connect_with_provider wp-social-login-provider wp-social-login-provider-facebook" data-provider="Facebook"> 
+			<img alt="Facebook" title="Connect with Facebook" src="http://novy.tv/wp-content/plugins/wordpress-social-login/assets/img/32x32/wpzoom//facebook.png" />	
+		</a>
+
+
+		<a rel="nofollow" href="http://novy.tv/wp-login.php?action=wordpress_social_authenticate&#038;provider=Google&#038;redirect_to=http%3A%2F%2Fnovy.tv%2Ftv%2Fthursday%2F" title="Connect with Google" class="wsl_connect_with_provider wp-social-login-provider wp-social-login-provider-google" data-provider="Google"> 
+			<img alt="Google" title="Connect with Google" src="http://novy.tv/wp-content/plugins/wordpress-social-login/assets/img/32x32/wpzoom//google.png" />	
+		</a>
+
+
+		<a rel="nofollow" href="http://novy.tv/wp-login.php?action=wordpress_social_authenticate&#038;provider=Twitter&#038;redirect_to=http%3A%2F%2Fnovy.tv%2Ftv%2Fthursday%2F" title="Connect with Twitter" class="wsl_connect_with_provider wp-social-login-provider wp-social-login-provider-twitter" data-provider="Twitter"> 
+			<img alt="Twitter" title="Connect with Twitter" src="http://novy.tv/wp-content/plugins/wordpress-social-login/assets/img/32x32/wpzoom//twitter.png" />	
+		</a>
+
+
+		<a rel="nofollow" href="http://novy.tv/wp-login.php?action=wordpress_social_authenticate&#038;provider=Vkontakte&#038;redirect_to=http%3A%2F%2Fnovy.tv%2Ftv%2Fthursday%2F" title="Connect with Vkontakte" class="wsl_connect_with_provider wp-social-login-provider wp-social-login-provider-vkontakte" data-provider="Vkontakte"> 
+			<img alt="Vkontakte" title="Connect with Vkontakte" src="http://novy.tv/wp-content/plugins/wordpress-social-login/assets/img/32x32/wpzoom//vkontakte.png" />	
+		</a>
+
+
+		<a rel="nofollow" href="http://novy.tv/wp-login.php?action=wordpress_social_authenticate&#038;provider=Odnoklassniki&#038;redirect_to=http%3A%2F%2Fnovy.tv%2Ftv%2Fthursday%2F" title="Connect with Odnoklassniki" class="wsl_connect_with_provider wp-social-login-provider wp-social-login-provider-odnoklassniki" data-provider="Odnoklassniki"> 
+			<img alt="Odnoklassniki" title="Connect with Odnoklassniki" src="http://novy.tv/wp-content/plugins/wordpress-social-login/assets/img/32x32/wpzoom//odnoklassniki.png" />	
+		</a>
+
+	</div> 
+
+	<div class="wp-social-login-widget-clearing"></div>
+</div> 
+
+<!-- wsl_render_login_form -->
+
+
+                        </div>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<script type='text/javascript' src='http://novy.tv/wp-content/plugins/decomments/components/comments/assets/js/decom.js?ver=4.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/plugins/decomments/components/comments/assets/js/jScroll/jquery.jscroll.min.js?ver=4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajax_login_object = {"ajaxurl":"http:\/\/novy.tv\/wp-admin\/admin-ajax.php","redirecturl":"\/tv\/thursday\/","loadingmessage":"Verified data..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://novy.tv/wp-content/plugins/decomments/components/comments/assets/js/decom-ajax-login-script.js?ver=4.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/plugins/decomments/libraries/jquery-form-plugin/jquery.form.js?ver=4.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/plugins/decomments/libraries/jquery-qtip/jquery.qtip-1.0.0-rc3.js?ver=4.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/plugins/decomments/components/comments/assets/js/qtip.js?ver=4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/novy.tv\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://novy.tv/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/plugins/decovote/public/assets/js/script.js?ver=1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var testme_aj = {"ajax_url":"http:\/\/novy.tv\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://novy.tv/wp-content/plugins/wp_testme/js/testme.js?ver=1.1'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/js/jquery-ui.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/js/easing.js?ver=1.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/js/waitforimages.js?ver=1.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/js/fancybox/jquery.fancybox.pack.js?ver=1.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/js/jquery.maskedinput.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/js/player/js/libs/swfobject.js?ver=1.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/js/player/js/slider.js?ver=1.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/js/player/js/player.js?ver=1.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/js/jquery.reveal.js?ver=1.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/js/jquery.selectric.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/js/viewport.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/js/smooth-scroll.js?ver=1.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/js/jquery.bxslider.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/js/modal.js?ver=1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var SliderSettings = {"pause":"1000","speed":"3000","slides":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://novy.tv/wp-content/themes/Novy/js/main.js?ver=1.0'></script>
+
+
+<!-- STATISTICS & SCRIPTS -->
+<!-- Yandex.Metrika informer -->
+<a style="position: absolute; top: 0; left: -99999px;" href="https://metrika.yandex.ru/stat/?id=11382562&amp;
+from=informer"
+   target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/11382562/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+                                       style="width:0; height:0; border:0; overflow:hidden;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:11382562,lang:'ru'});return false}catch(e){}" /></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter11382562 = new Ya.Metrika({id:11382562,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+
+<noscript>
+    <div>
+        <img src="//mc.yandex.ru/watch/11382562" style="position:absolute; left:-9999px;" alt="" />
+    </div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- MMI CMeter -->
+<noscript>
+    <img src="http://juke.mmi.bemobile.ua/bug/pic.gif?siteid=new.novy.tv" alt="" />
+</noscript>
+<script language="javascript">
+    var tns_already, tnscm_adn = tnscm_adn || [];
+    (function(c,m){if(c.indexOf&&c.indexOf(m)<0){c.unshift(m);}}(tnscm_adn,"inline_cm"));
+    if ("undefined"==typeof(tns_already) || null==tns_already || 0==tns_already)
+    {
+        tns_already=1;
+        var i=new Image();
+        i.src="http://juke.mmi.bemobile.ua/bug/pic.gif?siteid=new.novy.tv&j=1&nocache="+Math.random();
+
+        (function(){
+            var p=document.getElementsByTagName('head')[0];
+            var s=document.createElement("script");
+            s.type="text/javascript";
+            s.src="http://source.mmi.bemobile.ua/cm/cm.js";
+            s.async = true;
+            p.appendChild(s);
+        })();
+    };
+</script>
+<!-- /MMI CMeter --><!-- [END] STATISTICS & SCRIPTS -->
+
+<!-- ip server -->
+<!--<span style="display:none;">172.25.43.24</span>-->
+<!-- db info -->
+<!--<span style="display:none;">172.25.43.63:3306</span>-->
+
+
+
+</body>
+</html>
