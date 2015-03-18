@@ -121,16 +121,11 @@ def async_main_function(name_xml, begin_time, end_time):
     to_xml_file(result)
     return time.time() - start_async
 
-
-print "Synchronous:"
-print sync_main_function("lab1.xml", "10:00", "11:00")
-print "Asynchronous:"
-print async_main_function("lab1.xml", "10:00", "11:00")
-# if __name__ == "__main__":
-    # s = raw_input("Choose between sync or async version: ")
-    # if s == "sync":
-    #     print sync_main_function("lab1.xml", "10:00", "11:00")
-    # elif s == "async":
-    #     print async_main_function("lab1.xml", "10:00", "11:00")
-    # elif s:
-    #     print 'Type "sync" or "async"'
+if sys.argv[1] == "sync":
+    print "Synchronous:"
+    print sync_main_function("lab1.xml", "10:00", "11:00")
+elif sys.argv[1] == "async":
+    print "Asynchronous:"
+    print async_main_function("lab1.xml", "10:00", "11:00")
+elif sys.argv[1]:
+    print "wrong parameter"
