@@ -1,34 +1,30 @@
 from pysimplesoap.server import SoapDispatcher, SOAPHandler
 from BaseHTTPServer import HTTPServer
-
-
-def adder(a, b):
-    "Add two values"
-    return (a+b).__str__()
-
-def subber(a, b):
-    return a-b
+from ldap import *
 
 dispatcher = SoapDispatcher(
     'my_dispatcher',
-    location = "http://localhost:8008/",
-    action = 'http://localhost:8008/', # SOAPAction
+    location = "http://localhost:8000/",
+    action = 'http://localhost:8000/', # SOAPAction
     namespace = "http://example.com/sample.wsdl", prefix="ns0",
     trace = True,
     ns = True)
 
-# register the user function
-dispatcher.register_function('Adder', adder,
-    returns={'AddResult': str},
-    args={'a': int,'b': int})
 
-dispatcher.register_function('Subber',subber,
-                             returns={'SubResult': int},
-                             args={'a': int, 'b': int})
+dispatcher.register_function('Read', read, returns={'ReadResult': str}, args={'base_and_filter': str})
+
+dispatcher.register_function('Create', create, returns={'CreateResult': str},
+                             args={'record_to_add': str, 'account': str})
+
+dispatcher.register_function('Update', update, returns={'UpdateResult': str},
+                             args={'record_to_update': str, 'new_value': str, 'account': str})
+
+dispatcher.register_function('Delete', delete, returns={'DeleteResult': str},
+                             args={'record_to_delete': str, 'account': str})
 
 
 
 print "Starting server..."
-httpd = HTTPServer(("", 8008), SOAPHandler)
+httpd = HTTPServer(("", 8000), SOAPHandler)
 httpd.dispatcher = dispatcher
 httpd.serve_forever()

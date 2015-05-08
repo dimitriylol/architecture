@@ -2,49 +2,7 @@
 
 import shlex
 import subprocess
-from sys import stdin
 import os
-
-
-def interface_account():
-    dn = "'cn="
-    print "Введіть ваш Обліковий запис та натисніть Enter"
-    dn += stdin.readline()[:-1]+","
-    print "Введіть ваш домен та натисніть Enter"
-    dn += reduce(lambda x, y: x+y, map(lambda dc: "dc="+dc+",", stdin.readline().split(".")))[:-2] + "'"
-    print "Введіть ваш пароль та натисніть Enter"
-    dn += " -w " + stdin.readline()[:-1]
-    return dn
-
-
-def interface_add():
-    print "Введіть запис, який ви хочете додати та завершити пустим рядком"
-    a = ""
-    while 1:
-        tmp = stdin.readline()
-        if tmp != "\n":
-            a += tmp
-        else:
-            break
-    return a
-
-
-def interface_search():
-    print "Введіть базу для пошуку набором атрибутів через кому та натисніть Enter"
-    string = "'" + stdin.readline()[:-1] + "'"
-    print "Введіть фільтр пошуку та натисніть Enter"
-    string += " '("+stdin.readline()[:-1]+"')"
-    return string
-
-
-def interface_delete():
-    print "Введіть назву запису та натисніть Enter"
-    return stdin.readline()
-
-
-def interface_update():
-    print "Введіть назву та нове значення атрибуту та натисніть Enter"
-    return stdin.readline()
 
 
 def call_command(command_str):
@@ -68,8 +26,8 @@ def read(base_and_filter):
 
 
 def create(record_to_add, account):
-    command = "ldapadd -f add.ldif -x -D "+"'cn=Manager,dc=example,dc=com' -w secret"
-    return helper("dn: " + record_to_add, command)
+    command = "ldapadd -f add.ldif -x -D " + account
+    return helper(record_to_add, command)
 
 
 def update(record_to_update, new_value, account):
@@ -80,8 +38,8 @@ def update(record_to_update, new_value, account):
 
 
 def delete(record_to_delete, account):
-    str_ldif = "dn: "+record_to_delete+"changetype: delete"
-    command = "ldapadd -f add.ldif -x -D "+"'cn=Manager,dc=example,dc=com' -w secret"
+    str_ldif = "dn: " + record_to_delete + "changetype: delete"
+    command = "ldapadd -f add.ldif -x -D " + account
     return helper(str_ldif, command)
 
 
