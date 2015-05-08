@@ -15,3 +15,4 @@ response = client.Adder(a=1, b=2)
 # extract and convert the returned value
 result = response.AddResult
 print result
+print client.Subber(a=3, b=1).SubResult

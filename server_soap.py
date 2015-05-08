@@ -2,9 +2,12 @@ from pysimplesoap.server import SoapDispatcher, SOAPHandler
 from BaseHTTPServer import HTTPServer
 
 
-def interface_search(a, b):
+def adder(a, b):
     "Add two values"
-    return [{'suck': a+b}, {'ERROR': None}, {'cunt': 111}]
+    return (a+b).__str__()
+
+def subber(a, b):
+    return a-b
 
 dispatcher = SoapDispatcher(
     'my_dispatcher',
@@ -16,8 +19,14 @@ dispatcher = SoapDispatcher(
 
 # register the user function
 dispatcher.register_function('Adder', adder,
-    returns={'AddResult': list},
+    returns={'AddResult': str},
     args={'a': int,'b': int})
+
+dispatcher.register_function('Subber',subber,
+                             returns={'SubResult': int},
+                             args={'a': int, 'b': int})
+
+
 
 print "Starting server..."
 httpd = HTTPServer(("", 8008), SOAPHandler)
