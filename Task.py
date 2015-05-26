@@ -12,8 +12,8 @@ def generate_shipment(num, num_shipment):
 class Task():
     """Class for handling task by variant """
     def __init__(self):
-        self.__n = 20
-        self.__shipment = generate_shipment(500, self.__n)
+        self.__n = 100
+        self.__shipment = generate_shipment(60000, self.__n)
         self.__truck = 25
         self.__result = 0
         self.__connected_clients = {}

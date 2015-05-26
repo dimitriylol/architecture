@@ -16,6 +16,8 @@ class MyApp():
         self.fl = Flask(__name__)
         self.task = Task()
         self.ping_lst = []
+        self.st_time = time.time()
+        self.delta = 0
 
 app = MyApp()
 
@@ -36,7 +38,7 @@ class Ping(Thread):
     def run(self):
         """Main function of thread in which at regular intervals checking response"""
         while 1:
-            time.sleep(1.2)
+            time.sleep(2)
             if self.__end_ping - self.__begin_ping > 3:
                 break
             else:
@@ -45,6 +47,8 @@ class Ping(Thread):
         print "miss response"
         if app.task.percent() != 100:
             app.task.append_part(app.task.connected_clients[self.client])
+        else:
+            app.delta = time.time() - app.st_time
         del app.task.connected_clients[self.client]
 
 
@@ -83,7 +87,8 @@ def log():
     return render_template('log.html',
                                clients=app.task.connected_clients.__len__(),
                                percent=app.task.percent(),
-                               n=app.task.result)
+                               n=app.task.result,
+                               delta = app.delta)
 
 
 @app.fl.route('/return-result/<client_id>', methods=['POST'])
@@ -94,4 +99,4 @@ def return_result(client_id):
 
 
 if __name__ == '__main__':
-    app.fl.run(debug=True)
+    app.fl.run(host='0.0.0.0')
