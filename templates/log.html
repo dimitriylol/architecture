@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>log</title>
+    <script type="text/javascript" src="../static/jquery.js"></script>
+    <script type="text/javascript" src="../static/log2.js"></script>
+    <link rel="stylesheet" href="../static/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+			<div class="page-header">
+				<h1>Лог сервера</h1>
+			</div>
+        <p> Connected clients <span id="log">{{ clients }}</span></p>
+        <p> Percentage of completed task: <span id="percent"> {{ percent }} % </span> </p>
+        <p> Result number of trucks: <span id="trucks"> {{ n }} </span></p>
+        <p> Time delta <span id="delta">  {{ delta }} </span> </p>
+    </div>
+</body>
+</html>

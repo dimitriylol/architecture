@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>test</title>
+		<script src="../static/jquery.js"></script>
+		<script src="../static/core.js?{{ var }}"></script>
+		<link rel="stylesheet" href="../static/bootstrap.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="page-header">
+				<h1>Клієнтське програмне забезпечення</h1>
+			</div>
+			<div class="row">
+				<div class="col-xs-6">
+					<div class="row">
+						<div class="col-xs-4">Керування:</div>
+						<div class="col-xs-8">
+							<button id="start" class="btn btn-success">Почати роботу</button> 
+							<button id="stop" class="btn btn-danger" disabled>Завершити роботу</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-4">Стан системи:</div>
+						<div class="col-xs-8"><span id="state"></span></div>
+					</div>
+					<div class="row">
+						<div class="col-xs-4">Обробка задачі:</div>
+						<div class="col-xs-8"><span id="time-calculating">0</span> с</div>
+					</div>
+                    <div class="row">
+						<div class="col-xs-4">Останній результат:</div>
+						<div class="col-xs-8"><span id="result-last"></span></div>
+					</div>
+					<div class="row">
+						<div class="col-xs-4">Аргументи задачі:</div>
+						<div class="col-xs-8"><span id="arguments"></span></div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					Останнє повідомлення сервера:
+					<div class="row">
+						<div class="col-xs-3">тип:</div>
+						<div class="col-xs-9"><span id="type"></span></div>
+					</div>
+					<div class="row">
+						<div class="col-xs-3">дані:</div>
+						<div class="col-xs-9"><textarea id="data" class="form-control"></textarea></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
