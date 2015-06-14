@@ -10,7 +10,7 @@ def call_command(command_str):
         response = subprocess.check_output(shlex.split(command_str))
     except subprocess.CalledProcessError as e:
         response = 'Error'
-    return response
+    return response.strip()
 
 
 def helper(str_ldif, str_command):
