@@ -35,7 +35,6 @@ private:
 	void add_to_reverse_alphabet(string);
 	string string_butlast_char(string);
 	string dec2bin(int);
-
 public:
 	void print_alphabet();
 	LZW(char first_ascii, char last_ascii);

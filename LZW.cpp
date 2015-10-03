@@ -59,12 +59,14 @@ int LZW::get_bits_size(char val) {
 
 void LZW::create_alphabet() {
 	value = 0;
+	alphabet.clear();
 	char i = first_ascii;
 	while (i <= last_ascii)
 		add_to_alphabet(string(1, i++));
 }
 
 void LZW::create_reverse_alphabet() {
+	create_alphabet();
 	char i = first_ascii;
 	value = 0;
 	while (i <= last_ascii)
@@ -78,7 +80,6 @@ LZW::LZW(char first_ascii, char last_ascii) {
 	LZW::last_ascii = last_ascii;
 	bits_size = get_bits_size(last_ascii - first_ascii);
 	create_reverse_alphabet();
-	create_alphabet();
 }
 
 void LZW::print_alphabet() {
@@ -87,6 +88,7 @@ void LZW::print_alphabet() {
 }
 
 string LZW::encode(string to_encode) {
+	create_alphabet();
 	string res;
 	bits_size = get_bits_size(last_ascii - first_ascii);
 	string::iterator next_sym = to_encode.begin();
@@ -99,10 +101,14 @@ string LZW::encode(string to_encode) {
 			current_str = string(1, *next_sym);
 		}
 	}
+
 	return res;
 }
 //  00000 00001 00000 00010 11010 00000 00011 11110 011101 011011
+//  00000 00001 00000 00010 11010 00000 00011 11110 011101 011011
+//    a     b     a     c    ab    a      d    aba   ca      ba     e
 string LZW::decode(string to_decode) {
+	create_reverse_alphabet();
 	string res;
 	bits_size = get_bits_size(last_ascii - first_ascii);
 	string current_str;
@@ -110,11 +116,15 @@ string LZW::decode(string to_decode) {
 	size_t i = 0;
 	cout << "to_decode " << to_decode << endl;
 	while (i < to_decode.length()) {
-		if (!current_str.empty())
+		cout << "str for processing " << to_decode.substr(i, bits_size) << endl;
+		num = bin2dec(to_decode.substr(i, bits_size));
+		if (current_str.empty() || alphabet.find(current_str) != alphabet.end())
+			current_str += reverse_alphabet.at(num);
+		else {
 			add_to_reverse_alphabet(current_str);
-		num = bin2dec(to_decode.substr(i, i + bits_size));
+			current_str = current_str.substr(current_str.length() - 1, 1);
+		}
 		res += reverse_alphabet.at(num);
-		current_str = reverse_alphabet.at(num);
 		i += bits_size;
 	}
 	return res;
