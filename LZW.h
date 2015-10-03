@@ -31,7 +31,7 @@ private:
 	void create_alphabet();
 	void create_reverse_alphabet();
 	void add_to_alphabet(string);
-	void inc_bits_size();
+	void inc_bits_size(int);
 	void add_to_reverse_alphabet(string);
 	string string_butlast_char(string);
 	string dec2bin(int);

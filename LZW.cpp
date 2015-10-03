@@ -7,9 +7,9 @@
 
 #include "LZW.h"
 
-void LZW::inc_bits_size() {
+void LZW::inc_bits_size(int val) {
 	try {
-		if (bits_size < get_bits_size(value))
+		if (bits_size < get_bits_size(val))
 			bits_size++;
 	}
 	catch (const runtime_error& err) { }
@@ -37,12 +37,12 @@ int bin2dec(string number) {
 }
 
 void LZW::add_to_alphabet(string str) {
-	inc_bits_size();
+	inc_bits_size(value);
 	alphabet[str] = value++;
 }
 
 void LZW::add_to_reverse_alphabet(string str) {
-	inc_bits_size();
+	inc_bits_size(value + 1);
 	reverse_alphabet[value++] = str;
 }
 
@@ -118,14 +118,17 @@ string LZW::decode(string to_decode) {
 	while (i < to_decode.length()) {
 		cout << "str for processing " << to_decode.substr(i, bits_size) << endl;
 		num = bin2dec(to_decode.substr(i, bits_size));
-		if (current_str.empty() || alphabet.find(current_str) != alphabet.end())
-			current_str += reverse_alphabet.at(num);
-		else {
+		i += bits_size;
+		current_str += reverse_alphabet.at(num);
+		if (alphabet.find(current_str) == alphabet.end()) {
+			current_str = current_str.substr(0, current_str.length() - reverse_alphabet.at(num).length() + 1);
+			cout << "add str " << current_str;
 			add_to_reverse_alphabet(current_str);
-			current_str = current_str.substr(current_str.length() - 1, 1);
+			cout << " bits_size " << bits_size << endl;
+			current_str = reverse_alphabet.at(num);
 		}
 		res += reverse_alphabet.at(num);
-		i += bits_size;
+		cout << "res " << res << endl;
 	}
 	return res;
 }
