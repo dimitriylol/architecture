@@ -100,13 +100,14 @@ string LZW::encode(string to_encode) {
 			add_to_alphabet(current_str);
 			current_str = string(1, *next_sym);
 		}
+		cout << "current " << current_str << " res " << res << endl;
 	}
-
+	//TODO: change cycle. Doesn't process last symbol
+	if (current_str.length() == 1)
+		res += dec2bin(alphabet.at(current_str));
 	return res;
 }
-//  00000 00001 00000 00010 11010 00000 00011 11110 011101 011011
-//  00000 00001 00000 00010 11010 00000 00011 11110 011101 011011
-//    a     b     a     c    ab    a      d    aba   ca      ba     e
+
 string LZW::decode(string to_decode) {
 	create_reverse_alphabet();
 	string res;
@@ -114,21 +115,16 @@ string LZW::decode(string to_decode) {
 	string current_str;
 	int num;
 	size_t i = 0;
-	cout << "to_decode " << to_decode << endl;
 	while (i < to_decode.length()) {
-		cout << "str for processing " << to_decode.substr(i, bits_size) << endl;
 		num = bin2dec(to_decode.substr(i, bits_size));
 		i += bits_size;
 		current_str += reverse_alphabet.at(num);
 		if (alphabet.find(current_str) == alphabet.end()) {
 			current_str = current_str.substr(0, current_str.length() - reverse_alphabet.at(num).length() + 1);
-			cout << "add str " << current_str;
 			add_to_reverse_alphabet(current_str);
-			cout << " bits_size " << bits_size << endl;
 			current_str = reverse_alphabet.at(num);
 		}
 		res += reverse_alphabet.at(num);
-		cout << "res " << res << endl;
 	}
 	return res;
 }
