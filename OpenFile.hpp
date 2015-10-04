@@ -27,7 +27,6 @@ public:
 	Range read_all();
 private:
 	fstream stream;
-
 };
 
 template <typename Iterator>
@@ -44,7 +43,5 @@ Range OpenFile::read_all() {
 	}
 	return res;
 }
-
-} /* namespace std */
-
+}
 #endif /* OPENFILE_H_ */

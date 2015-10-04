@@ -22,10 +22,9 @@ int main(int argc, char* argv[]) {
 	delete encode_file;
 	OpenFile* file_for_decode = new OpenFile("encode.txt", fstream::in);
 	OpenFile* decode_file = new OpenFile("decode.txt", fstream::out);
-	compressed = file_for_decode->read_all<vector<int>>();
+	compressed = file_for_decode->read_all<vector<int> >();
 	decode_file->write(arch->decompress(compressed.begin(), compressed.end()));
+	delete decode_file;
 	return 0;
 }
-
-
 

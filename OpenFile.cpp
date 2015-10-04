@@ -10,7 +10,6 @@
 namespace std {
 
 OpenFile::OpenFile(string file_name, ios_base::openmode mode) {
-	//TODO: add safety
 	stream.open(file_name.data(), mode);
 }
 
@@ -26,5 +25,4 @@ void OpenFile::write(string str) {
 	stream << str;
 }
 
-
-} /* namespace std */
+}
