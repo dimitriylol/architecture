@@ -11,14 +11,24 @@
 
 using namespace std;
 
+int generate_file() {
+  OpenFile* new_file = new OpenFile("generated.txt", fstream::out);
+  vector<int> tmp;
+  for(int i = 0; i<0x0ffffee; i++) {
+    tmp.push_back(i);
+  }
+  new_file->write(tmp.begin(), tmp.end());
+  return 1;
+}
+
 int main(int argc, char* argv[]) {
 	vector<int> compressed;
 	LZW *arch = new LZW();
+	generate_file();
 	OpenFile* encode_file = new OpenFile("encode.txt", fstream::out);
-	OpenFile* war = new OpenFile("warpeace.txt", fstream::in);
-	string str = war->read_all();
-	arch->compress(str,back_inserter(compressed));
-	encode_file->write(compressed.begin(), compressed.end());
+	OpenFile* war =  new OpenFile("generated.txt", fstream::in);
+	arch->compress(war->read_all(),back_inserter(compressed));
+	encode_file->write(compressed.begin(), compressed.end()); 
 	delete encode_file;
 	OpenFile* file_for_decode = new OpenFile("encode.txt", fstream::in);
 	OpenFile* decode_file = new OpenFile("decode.txt", fstream::out);
